@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import TrendystyLogo from "../assets/Trendysty-Logo.png";
 import { Menu, X, ChevronDown } from "lucide-react";
 
@@ -82,11 +82,11 @@ export default function Header() {
         <
         li className = "nav-item" >
         <
-        a href = "#"
-        className = "nav-link" >
+        button className = "nav-link"
+        style = {{ background: "none", border: "none", cursor: "pointer", color: "inherit", font: "inherit" }} >
         Categories < ChevronDown size = { 16 }
         /> <
-        /a> <
+        /button> <
         div className = "dropdown-menu" >
         <
         div className = "dropdown-content" >
